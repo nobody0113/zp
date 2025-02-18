@@ -15,7 +15,7 @@ const Navbar = () => {
         <li>Services</li>
         <li> About</li>
         <li>Contact</li>
-        <button>Login</button>
+        <button onClick={()=>alert("please wait work in progress")}>Login</button>
         <button> Register</button>
         </div>
       </div>
