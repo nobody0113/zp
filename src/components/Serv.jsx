@@ -47,7 +47,7 @@ const Serv = () => {
     <div className='flex border-2 w-screen h-screen bg-green-50'>
         <h1 className='flex  mx-20 font-extrabold text-green-600 text-4xl p-6 '>Services</h1>
         <img  className='flex absolute my-35 mx-20 w-180 ' src={printer} alt="" />
-        <div className='  container w-230 h-130 p-8  flex absolute right-3'>
+        <div className='  container w-230 h-130 p-8  flex absolute right-3 my-20'>
             <div  className='  flex flex-wrap gap-15'>
                 {services.map((service)=>(
                     <div key={service.id} className='border-2 w-60 h-fit text-center rounded-2xl p-3 bg-white-20 backdrop-blur-2xl'>
