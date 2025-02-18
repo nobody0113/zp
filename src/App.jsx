@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div >
      <Navbar/>
-     <div className='bg-[url("/home/jack/JS_16/Zerox_Point_16/Landing_Page/public/bi.png")] bg-contain bg-no-repeat bg-center w-screen h-screen  '>
+     <div className='bg-[url("/bi.png")] bg-contain bg-no-repeat bg-center w-screen h-screen  '>
      <First/>
      </div>
      <Serv/>
