@@ -2,7 +2,7 @@ import React from 'react'
 
 const First = () => {
   return (
-    <div className='bg-[url("/bi.png")] bg-contain bg-no-repeat bg-center flex w-screen h-screen  '>
+    <div className=' flex w-full h-screen bottom-1/10 bg-[url("/bi.png")] bg-cover  bg-center   '>
     <div className='flex absolute w-full'>
         <h1 className='text-3xl text-orange-400 font-extrabold flex absolute text-justify mx-80 '> Zerox Point – Simplifying Documents, Optimizing Pricing, Empowering Efficiency</h1>
         <div className=' w-200 h-140 flex absolute mx-40 my-50  rounded-2xl tranfrom translate-x-1/50  '>
