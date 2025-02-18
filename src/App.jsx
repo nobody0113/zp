@@ -3,15 +3,19 @@ import Navbar from './components/Navbar'
 import First from './components/First'
 import Serv from './components/Serv'
 import CardComponent from './components/CardComponent'
+import Delivery from './components/Delivery'
+import Review from './components/Review'
+import Foot from './components/Foot'
 
 const App = () => {
   return (
     <div >
-     <Navbar/>
-     <div>
+     <Navbar/>    
      <First/>
-     </div>
      <Serv/>
+     <Delivery/>
+     <Review/>
+     <Foot/>
      
      
     </div>

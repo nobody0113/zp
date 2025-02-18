@@ -44,13 +44,13 @@ const Serv = () => {
 
 
   return (
-    <div className='flex border-2 w-screen h-screen bg-green-50'>
+    <div className='flex  w-screen h-screen bg-green-50'>
         <h1 className='flex  mx-20 font-extrabold text-green-600 text-4xl p-6 '>Services</h1>
-        <img  className='flex absolute my-35 mx-20 w-180 ' src={printer} alt="" />
-        <div className='  container w-230 h-130 p-8  flex absolute right-3 my-20'>
+        <img  className='transform transition-all duration-700 hover:w-200 flex absolute my-35 mx-20 w-180 ' src={printer} alt="" />
+        <div className='  container w-230 h-130 p-8  flex absolute right-6 my-20'>
             <div  className='  flex flex-wrap gap-15'>
                 {services.map((service)=>(
-                    <div key={service.id} className='border-2 w-60 h-fit text-center rounded-2xl p-3 bg-white-20 backdrop-blur-2xl'>
+                    <div key={service.id} className='transform transition-all duration-500 hover:translate-x-6 hover:translate-y-11 border-2 w-60 h-fit text-center rounded-2xl p-3 bg-white-20 backdrop-blur-2xl'>
                         <div className='text-orange-400 font-extrabold'>{service.title}</div>
                     
                     <div className='font-bold '>{service.description}  </div>
