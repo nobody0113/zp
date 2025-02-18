@@ -45,7 +45,7 @@ const Serv = () => {
 
   return (
     <div className=' border-2 w-screen h-screen bg-green-50'>
-        <h1 className='flex absolute mx-20 font-extrabold text-green-600 text-4xl p-6 '>Services</h1>
+        <h1 className='flex absolute mx-20 font-extrabold text-green-600 text-4xl p-6 '>Serve</h1>
         <img  className='flex absolute my-35 mx-20 w-180 ' src={printer} alt="" />
         <div className='  container w-230 h-130 p-8  flex absolute right-3'>
             <div  className='  flex flex-wrap gap-15'>
