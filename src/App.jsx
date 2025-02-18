@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div >
      <Navbar/>
-     <div className='bg-[url("/bi.png")] bg-contain bg-no-repeat bg-center w-screen h-screen  '>
+     <div>
      <First/>
      </div>
      <Serv/>
